@@ -2,27 +2,104 @@
 <html>
 
 <head>
-    <title>Uvod u HTML</title>
+    <title>HTML - liste, slike i linkovi</title>
 </head>
 
 <body>
-    <h1>H1 - Glavni naslov</h1>
-    <h2>H2 naslov</h2>
-    <h3>H3 naslov</h3>
-    <h4>H4 naslov</h4>
-    <h5>H5 naslov</h5>
-    <h6>H6 naslov</h6>
+    <h1 id="vrh">HTML - liste, slike i linkovi</h1>
+    <h2>HTML liste</h2>
 
-    <p>Lorem ipsum dolor <span style="color: red; font-size: 3rem; background-color: yellow;">sit</span> amet
-        consectetur adipisicing elit. Dolor, officiis odio tenetur molestiae deleniti ducimus dignissimos dolores unde
-        rem ullam nostrum aspernatur quia repudiandae quo nisi obcaecati reprehenderit. Quam, atque?</p>
+    <!-- uređena lista -->
+    <ol>
+        <li>Čaj</li>
+        <li>Kafa</li>
+        <li>Sok</li>
+    </ol>
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, non.</p>
+    <!-- neuređena lista -->
+    <ul>
+        <li>Čaj</li>
+        <li>Kafa</li>
+        <li>Sok</li>
+    </ul>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo alias sapiente eius voluptate provident fugiat?
-        Magni, ipsam eum! Nam voluptatum aliquam veritatis recusandae ipsa velit culpa tempore id dolorem accusamus at
-        saepe laboriosam corporis excepturi provident a consequuntur voluptates, rem nisi! Provident, aut maxime
-        officiis voluptate laborum vel. Rerum, quaerat!</p>
+    <!-- definiciona lista -->
+    <dl>
+        <dt>Čaj</dt>
+        <dd>je piće obično napravljeno od bilja ili voća</dd>
+        <dt>Sok</dt>
+        <dd>je piće koje može da bude gazirano ili negazirano</dd>
+    </dl>
+
+    <!-- ugnježdene liste -->
+    <ol>
+        <li> Sok
+            <ol>
+                <li>Narandža</li>
+                <li>Limun</li>
+                <li> Gazirani
+                    <ol>
+                        <li>Pepsi</li>
+                        <li>Klaker</li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+    </ol>
+
+    <ul>
+        <li> Sok
+            <ul>
+                <li>Narandža</li>
+                <li>Limun</li>
+                <li> Gazirani
+                    <ol type="i">
+                        <li>Pepsi</li>
+                        <li>Klaker</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Slike</h2>
+
+    <!-- apsolutna putanja -->
+    <img src="https://images.unsplash.com/photo-1727110552261-59fdac127f84?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="slika fotoaparata" height="400">
+
+    <br>
+    <br>
+
+    <!-- relativna putanja -->
+    <img src="img/most.jpg" alt="slika mosta" width="400">
+
+    <br>
+    <br>
+
+    <figure>
+        <img src="img/most.jpg" alt="slika mosta" width="400">
+        <figcaption>Golden gate most u San Francisku</figcaption>
+    </figure>
+
+    <h2>Linkovi</h2>
+
+    <a href="https://www.google.com/" target="_blank">Yahoo</a>
+
+    <a href="uputstvo.html">Uputstvo</a>
+
+    <a href="uputstvo.html">
+        <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/62-instagram-512.png"
+            alt="instagram logo" width="100">
+    </a>
+
+    <br>
+
+    <a href="#vrh">Vrati se na vrh</a>
+
+    <br>
+
+    <a href="mailto:example@example.com">Kontaktirajte nas</a>
 </body>
 
 </html>
