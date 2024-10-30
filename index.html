@@ -2,104 +2,60 @@
 <html>
 
 <head>
-    <title>HTML - liste, slike i linkovi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
-<body>
-    <h1 id="vrh">HTML - liste, slike i linkovi</h1>
-    <h2>HTML liste</h2>
-
-    <!-- uređena lista -->
-    <ol>
-        <li>Čaj</li>
-        <li>Kafa</li>
-        <li>Sok</li>
-    </ol>
-
-    <!-- neuređena lista -->
-    <ul>
-        <li>Čaj</li>
-        <li>Kafa</li>
-        <li>Sok</li>
-    </ul>
-
-    <!-- definiciona lista -->
-    <dl>
-        <dt>Čaj</dt>
-        <dd>je piće obično napravljeno od bilja ili voća</dd>
-        <dt>Sok</dt>
-        <dd>je piće koje može da bude gazirano ili negazirano</dd>
-    </dl>
-
-    <!-- ugnježdene liste -->
-    <ol>
-        <li> Sok
-            <ol>
-                <li>Narandža</li>
-                <li>Limun</li>
-                <li> Gazirani
-                    <ol>
-                        <li>Pepsi</li>
-                        <li>Klaker</li>
-                    </ol>
-                </li>
-            </ol>
-        </li>
-    </ol>
-
-    <ul>
-        <li> Sok
-            <ul>
-                <li>Narandža</li>
-                <li>Limun</li>
-                <li> Gazirani
-                    <ol type="i">
-                        <li>Pepsi</li>
-                        <li>Klaker</li>
-                    </ol>
-                </li>
-            </ul>
-        </li>
-    </ul>
-
-    <h2>Slike</h2>
-
-    <!-- apsolutna putanja -->
-    <img src="https://images.unsplash.com/photo-1727110552261-59fdac127f84?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="slika fotoaparata" height="400">
-
-    <br>
+<body style="background-color: rgb(0, 0, 0); color: rgb(240, 240, 240);">
+    <img width="112" height="70"
+        src="https://www.dejanpetrovic.com/wp-content/uploads/Nenaslovljeni_dizajn-5_1_-removebg-preview.png" alt="">
     <br>
 
-    <!-- relativna putanja -->
-    <img src="img/most.jpg" alt="slika mosta" width="400">
+    <img src="https://www.dejanpetrovic.com/wp-content/uploads/mobile-hero-1.webp" alt="" style="width: 90vw;">
 
-    <br>
-    <br>
+    <div style="text-align: center;">
+        <h1>Dejan Petrovic Big Band</h1>
+        <h4>Zvuk trube kao tradicija modernog doba</h4>
+    </div>
 
-    <figure>
-        <img src="img/most.jpg" alt="slika mosta" width="400">
-        <figcaption>Golden gate most u San Francisku</figcaption>
-    </figure>
+    <img src="https://www.dejanpetrovic.com/wp-content/uploads/Dejan-Petrovic-045-1.webp" alt="" style="width: 90vw;">
 
-    <h2>Linkovi</h2>
+    <h2>O NAMA</h2>
+    <h4>Ukratko o BIG BENDU</h4>
 
-    <a href="https://www.google.com/" target="_blank">Yahoo</a>
+    <p>Ako negde čujete melodije poznatih svetskih hitova, isprepletene motivima srpske izvorne muzike, a sve sjajno
+        ukomponovano u jednu celinu, znaćete da je to Dejan Petrovic Big Band. Prepoznatljivi zvuci truba, gitare i
+        dobar
+        “groove” su lična karta ovog benda.</p>
 
-    <a href="uputstvo.html">Uputstvo</a>
-
-    <a href="uputstvo.html">
-        <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/62-instagram-512.png"
-            alt="instagram logo" width="100">
+    <h2>DISKOGRAFIJA</h2>
+    <a href="/ruza_vetrova/" target="_blank" style="text-decoration: none; color: rgb(240, 240, 240);">
+        <dl>
+            <dt><img src="https://www.dejanpetrovic.com/wp-content/uploads/Dejan-Petrovic-Orkestar-Ruza-Vetrova_slika_O_41402093.jpg"
+                    alt="" style="width: 90vw;"></dt>
+            <dd>
+                <h3>Ruža vetrova</h3>
+            </dd>
+        </dl>
     </a>
-
-    <br>
-
-    <a href="#vrh">Vrati se na vrh</a>
-
-    <br>
-
-    <a href="mailto:example@example.com">Kontaktirajte nas</a>
+    <a href="https://www.dejanpetrovic.com" target="_blank" style="text-decoration: none; color: rgb(240, 240, 240);">
+        <dl>
+            <dt><img src="https://www.dejanpetrovic.com/wp-content/uploads/1200x1200bf-60.jpg" alt=""
+                    style="width: 90vw;"></dt>
+            <dd>
+                <h3>Udahni duboko</h3>
+            </dd>
+        </dl>
+    </a>
+    <a href="https://www.dejanpetrovic.com" target="_blank" style="text-decoration: none; color: rgb(240, 240, 240);">
+        <dl>
+            <dt><img src="https://www.dejanpetrovic.com/wp-content/uploads/DPBB-Truba-Libre1.jpg" alt=""
+                    style="width: 90vw;"></dt>
+            <dd>
+                <h3>Truba libre</h3>
+            </dd>
+        </dl>
+    </a>
 </body>
 
 </html>
