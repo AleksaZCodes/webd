@@ -1,28 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Uvod u HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabele</title>
 </head>
 
 <body>
-    <h1>H1 - Glavni naslov</h1>
-    <h2>H2 naslov</h2>
-    <h3>H3 naslov</h3>
-    <h4>H4 naslov</h4>
-    <h5>H5 naslov</h5>
-    <h6>H6 naslov</h6>
+    <h1>Tabele</h1>
 
-    <p>Lorem ipsum dolor <span style="color: red; font-size: 3rem; background-color: yellow;">sit</span> amet
-        consectetur adipisicing elit. Dolor, officiis odio tenetur molestiae deleniti ducimus dignissimos dolores unde
-        rem ullam nostrum aspernatur quia repudiandae quo nisi obcaecati reprehenderit. Quam, atque?</p>
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+        </tr>
+    </table>
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, non.</p>
+    <br>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo alias sapiente eius voluptate provident fugiat?
-        Magni, ipsam eum! Nam voluptatum aliquam veritatis recusandae ipsa velit culpa tempore id dolorem accusamus at
-        saepe laboriosam corporis excepturi provident a consequuntur voluptates, rem nisi! Provident, aut maxime
-        officiis voluptate laborum vel. Rerum, quaerat!</p>
+    <table border="1" cellspacing="0" cellpadding="10" width="400">
+        <caption>
+            <b>Caption</b>
+        </caption>
+        <tr>
+            <th colspan="3" rowspan="6">123</th>
+
+            <th>123</th>
+            <th colspan="3">123</th>
+            <th>123</th>
+        </tr>
+        <tr>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td align="right">123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>123</td>
+            <td>123</td>
+            <td bgcolor="cyan">123</td>
+            <td>123</td>
+            <td>123</td>
+        </tr>
+        <tr>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+        </tr>
+        <tr align="right">
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+            <td>123</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table border="1" width="400">
+        <tr align="right" bgcolor="lightblue">
+            <th align="left">Money spent on...</th>
+            <th>January</th>
+            <th>February</th>
+        </tr>
+        <tr align="right">
+            <td align="left">Clothes</td>
+            <td>$241.10</td>
+            <td>$50.20</td>
+        </tr>
+        <tr align="right">
+            <td align="left">Make-Up</td>
+            <td>$30.00</td>
+            <td>$44.45</td>
+        </tr>
+        <tr align="right">
+            <td align="left">Food</td>
+            <td>$730.40</td>
+            <td>$650.99</td>
+        </tr>
+        <tr align="right" bgcolor="lightyellow">
+            <th align="left">Sum</th>
+            <th>$1001.50</th>
+            <th>$744.65</th>
+        </tr>
+    </table>
 </body>
 
 </html>
