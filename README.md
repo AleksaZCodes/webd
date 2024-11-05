@@ -2,4 +2,4 @@
 
 U granama su pobrojani datumi laboratorijskih dana na kojima smo imali web.
 
-U main grani se nalazi trenutni, najnoviji kod sa poslednje lekcije.
+U main grani se nalazi trenutni, najnoviji kod sa poslednje lekcije (trebalo bi).
