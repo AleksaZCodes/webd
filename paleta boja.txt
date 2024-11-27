@@ -1,0 +1,16 @@
+Boje pozadine:
+#0f172a
+#020617
+#1e293b
+#334155
+
+Boje teksta:
+#cbd5e1
+#94a3b8
+#f472b6
+#22d3ee
+#34d399
+#f59e0b
+white
+#f0f8ff
+#64748b

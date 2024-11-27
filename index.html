@@ -1,28 +1,210 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Uvod u HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turistička agencija "Avantura"</title>
 </head>
 
-<body>
-    <h1>H1 - Glavni naslov</h1>
-    <h2>H2 naslov</h2>
-    <h3>H3 naslov</h3>
-    <h4>H4 naslov</h4>
-    <h5>H5 naslov</h5>
-    <h6>H6 naslov</h6>
+<body
+    style="font-family: Arial, Helvetica, sans-serif; background-color: #0f172a; color: #cbd5e1; margin: 0; padding: 0">
+    <header style="text-align: center; margin: auto; padding: 60px; width: 1200px">
+        <h1 style="font-size: 48px; color: white">
+            Dobrodošli u Turističku Agenciju "Avantura"
+        </h1>
+        <p style="font-size: 24px; color: #94a3b8">
+            Vaša vrata ka nezaboravnim putovanjima!
+        </p>
+    </header>
 
-    <p>Lorem ipsum dolor <span style="color: red; font-size: 3rem; background-color: yellow;">sit</span> amet
-        consectetur adipisicing elit. Dolor, officiis odio tenetur molestiae deleniti ducimus dignissimos dolores unde
-        rem ullam nostrum aspernatur quia repudiandae quo nisi obcaecati reprehenderit. Quam, atque?</p>
+    <nav style="background-color: #020617; margin: auto; padding: 20px; text-align: center;">
+        <a href="#onama" style="color: white; text-decoration: none; margin: 20px">
+            <b>O nama</b>
+        </a>
+        <a href="#naseusluge" style="color: white; text-decoration: none; margin: 20px">
+            <b>Naše usluge</b>
+        </a>
+        <a href="#destinacije" style="color: white; text-decoration: none; margin: 20px">
+            <b>Destinacije</b>
+        </a>
+        <a href="#dodatneinformacije" style="color: white; text-decoration: none; margin: 20px">
+            <b>Dodatne informacije</b>
+        </a>
+    </nav>
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, non.</p>
+    <section id="onama" style="text-align: center; width: 1200px; margin: auto; padding: 20px 0">
+        <h2 style="margin: 20px">O nama</h2>
+        <p style="width: 600px; margin: auto;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur ea mollitia, dolorem nostrum repellat
+            neque incidunt illo quae quo cum alias magni earum possimus quod odio aut id voluptatem assumenda.
+        </p>
+    </section>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo alias sapiente eius voluptate provident fugiat?
-        Magni, ipsam eum! Nam voluptatum aliquam veritatis recusandae ipsa velit culpa tempore id dolorem accusamus at
-        saepe laboriosam corporis excepturi provident a consequuntur voluptates, rem nisi! Provident, aut maxime
-        officiis voluptate laborum vel. Rerum, quaerat!</p>
+    <section id="naseusluge" style="text-align: center; width: 1200px; margin: auto; padding: 20px 0">
+        <h2 style="margin: 20px">Naše usluge</h2>
+        <table style="width: 100%;" cellspacing="20">
+            <tr>
+                <td style="background-color: #1e293b; padding: 20px;">
+                    <h3 style="color:#f472b6">
+                        Organizacija grupnih putovanja
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </td>
+                <td style="background-color: #1e293b; padding: 20px;">
+                    <h3 style="color:#22d3ee">
+                        Individualne ture po meri
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="background-color: #1e293b; padding: 20px;">
+                    <h3 style="color:#34d399">
+                        Rezervacije hotela i avio karata
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </td>
+                <td style="background-color: #1e293b; padding: 20px;">
+                    <h3 style="color:#f59e0b">
+                        Vodiči i transport
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="destinacije" style="text-align: center; width: 1200px; margin: auto; padding: 20px 0">
+        <h2 style="margin: 20px">Popularne destinacije</h2>
+        <table style="width: 100%;" cellspacing="20">
+            <tr>
+                <td>
+                    <h3>Pariz</h3>
+                    <img src="slike/pariz.jpg" alt="Pariz" style="width: 100%">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <ul style="text-align: left;">
+                        <li>
+                            <b>Najbolji meseci za posetu:</b>
+                            <ul>
+                                <li>april - jun</li>
+                                <li>septembar - oktobar</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <b>Preporučene aktivnosti:</b>
+                            <ul>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div style="margin-top: 10px">
+                        <a href="#" style="color: white;">
+                            <b>Posetite</b>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <h3>Maldivi</h3>
+                    <img src="slike/maldivi.jpg" alt="Maldivi" style="width: 100%">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <ul style="text-align: left;">
+                        <li>
+                            <b>Najbolji meseci za posetu:</b>
+                            <ul>
+                                <li>april - jun</li>
+                                <li>septembar - oktobar</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <b>Preporučene aktivnosti:</b>
+                            <ul>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <a href="#" style="color: white">
+                        <b>Posetite</b>
+                    </a>
+                </td>
+                <td>
+                    <h3>Tokio</h3>
+                    <img src="slike/tokijo.jpg" alt="Tokio" style="width: 100%">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <ul style="text-align: left;">
+                        <li>
+                            <b>Najbolji meseci za posetu:</b>
+                            <ul>
+                                <li>april - jun</li>
+                                <li>septembar - oktobar</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <b>Preporučene aktivnosti:</b>
+                            <ul>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div style="margin-top: 10px">
+                        <a href="#" style="color: white;">
+                            <b>Posetite</b>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <h3>Njujork</h3>
+                    <img src="slike/njujork.jpg" alt="Njujork" style="width: 100%">
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    <ul style="text-align: left;">
+                        <li>
+                            <b>Najbolji meseci za posetu:</b>
+                            <ul>
+                                <li>april - jun</li>
+                                <li>septembar - oktobar</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <b>Preporučene aktivnosti:</b>
+                            <ul>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                                <li>Lorem, ipsum dolor.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div style="margin-top: 10px">
+                        <a href="#" style="color: white;">
+                            <b>Posetite</b>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="dodatneinformacije" style="width: 1200px; margin: auto; padding: 20px 0">
+        <h2 style="margin: 20px; text-align: center;">Dodatne informacije</h2>
+        <p>
+        <h3>
+            Često postavljana pitanja (FAQ)
+        </h3>
+        </p>
+    </section>
 </body>
 
 </html>
